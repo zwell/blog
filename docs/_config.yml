@@ -1,6 +1,6 @@
 permalink: /blog/:month-:day-:year/:title.html
 
 title: zwell 的技术积累
-url: https://zwell.github.io/blog
+url: https://zwell.github.io
 feed: /atom.xml
 author_info: <a href="https://zwell.github.io/blog/">zwell</a>
