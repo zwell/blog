@@ -1,4 +1,4 @@
-permalink: /blog/:month-:day-:year/:title.html
+permalink: /:month-:day-:year/:title.html
 
 title: zwell 的技术积累
 url: https://zwell.github.io/blog
