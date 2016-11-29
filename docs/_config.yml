@@ -1,5 +1,5 @@
 # permalink: /blog/:month-:day-:year/:title.html
-permalink: /blog/:title.html
+permalink: /blog/:title
 
 title: zwell 的技术积累
 feed: /atom.xml
