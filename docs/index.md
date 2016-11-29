@@ -10,6 +10,7 @@ layout: default
           <li>
             <a href="{{ post.url }}" class="title">{{ post.title }}</a>
             <div class="title-desc">{{ post.description }}</div>
+            <div class="title-date">{{ post.date }}</div>
           </li>
         {% endfor %}
       </ul>
