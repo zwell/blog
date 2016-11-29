@@ -10,7 +10,7 @@ layout: default
           <li>
             <a href="{{ post.url }}" class="title">{{ post.title }}</a>
             <div class="title-desc">{{ post.description }}</div>
-            <div class="title-desc" style="float:right;">{{ page.categories }}{{ post.date|date:"%Y-%m-%d" }}</div>
+            <div class="title-desc" style="float:right;">{{ post.categories }}{{ post.date|date:"%Y-%m-%d" }}</div>
           </li>
         {% endfor %}
       </ul>
