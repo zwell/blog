@@ -8,6 +8,7 @@ layout: default
       <ul class="artical-list">
         {% for category in site.categories %}
           {{ category.name }}
+          {{ category }}
           {% for post in category %}
             <li>
               <a href="{{ post.url }}" class="title">{{ post.title }}</a>
