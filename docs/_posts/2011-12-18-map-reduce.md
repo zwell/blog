@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      map-reduce
+category: hadoop
+tag: 大数据
+description: 写博客这个这么古老的行为，还有必要拿出来说吗，我看有。
+---
+
+## 介绍
+
