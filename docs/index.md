@@ -8,9 +8,9 @@ layout: default
       <ul class="artical-list">
         {% for post in site.posts %}
           <li>
-            <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+            <h2 class="post-title"><a href="{{ post.url }}" class="title">{{ post.title }}</a></h2>
+            <p class="post-date">{{ page.date|date:"%Y-%m-%d" }}</p>
             <div class="title-desc">{{ post.description }}</div>
-            <div class="title-date">{{ post.date }}</div>
           </li>
         {% endfor %}
       </ul>
