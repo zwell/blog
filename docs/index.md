@@ -7,6 +7,7 @@ layout: default
     <div class="index-content">
       <ul class="artical-list">
         {% for category in site.categories %}
+          {{ category.name }}
           {% for post in category %}
             <li>
               <a href="{{ post.url }}" class="title">{{ post.title }}</a>
