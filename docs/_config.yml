@@ -1,4 +1,4 @@
-permalink: /:title
+permalink: /:month-:day-:year/:title.html
 
 title: zwell 的技术积累
 feed: /atom.xml
