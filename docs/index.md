@@ -6,7 +6,7 @@ layout: default
   <div class="index-wrapper">
     <div class="index-content">
       <ul class="artical-list">
-      {{ site }}
+      {{ site.categories }}
         {% for category in site.categories %}
           {% for post in category %}
             <li>
