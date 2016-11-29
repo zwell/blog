@@ -12,6 +12,8 @@ docker
 
 scala
 
+r语言
+
 hadoop
 
 hdfs
