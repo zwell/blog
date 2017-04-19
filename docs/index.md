@@ -8,7 +8,7 @@ layout: default
       <ul class="artical-list">
         {% for post in site.posts %}
           <li>
-            <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+            <a href="blog/{{ post.url }}" class="title">{{ post.title }}</a>
             <div class="title-desc">{{ post.description }}</div>
             <div class="title-desc" style="float:right;">{{ post.categories }}  {{ post.date|date:"%Y-%m-%d" }}</div>
           </li>
